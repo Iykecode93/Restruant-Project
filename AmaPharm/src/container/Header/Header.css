@@ -1,0 +1,80 @@
+.app__header {
+    background-image: url('../../assets/freepik-export-20240916223050AuCJ.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.app__header-h1 {
+    font-family: var( --font-base );
+    color: var(--color-golden);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.app__wrapper_info {
+    background-color: black;
+    height: 400px;
+    margin-top: 10px;
+    padding-top: 100px;
+}
+
+.app__wrapper_links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.app__wrapper_link1 {
+    background-color: white;
+    height: auto;
+    padding: 0.6rem;
+    border: 3px solid white;
+    border-radius: 30px;
+    color: black;
+}
+
+.app__wrapper_link2 {
+    height: auto;
+    padding: 0.6rem;
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+    color: white;
+}
+
+.app__wrapper_link1 a:hover {
+    color: rgb(122, 181, 46);
+}
+
+.app__wrapper_link2 a:hover {
+    color: rgb(122, 181, 46);
+}
+
+@media screen and (max-width: 650px) {
+    .app__header {
+        background-image: url('../../assets/freepik-export-20240916223050AuCJ.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 1;
+    }
+
+    .app__header-h1 {
+        font-family: var( --font-base );
+        color: var(--color-golden);
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        font-size: 30px;
+        line-height: 40px;
+        align-items: center;
+    }
+
+    .app__wrapper_info {
+        height: 10px;
+        margin-top: 1px;
+        padding-top: 10px;
+    }
+}
